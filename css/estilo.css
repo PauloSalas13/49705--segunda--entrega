@@ -1,0 +1,100 @@
+body {
+    margin: 40px;
+    padding-top: 10px;
+    font-size: 16px;
+    font-family: sans-serif;
+    background-color: whitesmoke
+}
+
+/*estilo de barra de botones de redes sociales*/
+.redes {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: burlywood;
+}
+
+/*Segunda Barra de Navegacion*/
+.especialUl {
+    list-style-type: none;
+    margin-top: 0px;
+    margin-left: 350px;
+    margin-right: 350px;
+    padding: 0;
+    overflow: hidden;
+    background-color: brown;
+}
+
+.especial {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+a {
+    /*quitar subrayado*/
+    text-decoration: none;
+
+    /*mayuscula*/
+    text-transform: uppercase;
+
+    /*color fuente*/
+    color: black;
+}
+
+/*pie de pagina*/
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #fdfdfd;
+    padding: .50rem 1rem;
+}
+
+footer .copiright {
+    display: inline-flex;
+    align-items: center;
+    padding: .50rem;
+    max-width: 50%;
+    margin: auto;
+    margin-left: 0;
+    background-color: lightgreen;
+}
+
+footer .copiright p {
+    color: #BBBBBB;
+    align-self: center;
+    font-family: "Palanquin Dark";
+    font-size: 1rem;
+    margin: 0 .50rem;
+    background-color: grey
+}
+
+/*del menu se deja seleccionado uno según pagina*/
+#sel {
+    background-color: chocolate;
+}
+
+/*propiedades de tag en la pagina de Nosotros*/
+
+.foto {
+    max-width: 350px;
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    padding: 5px;
+    display: inline-block;
+    margin: auto;
+}
+
+/*imagen logo en todas las paginas*/
+
+.imgLogo {
+    margin-left: 10px;
+    margin-top: -60px;
+    width: 50px;
+    height: 100px;
+}
